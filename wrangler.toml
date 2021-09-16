@@ -1,0 +1,12 @@
+account_id = ""
+name = "my-site"
+type = "webpack"
+workers_dev = false
+site = { bucket = "./public" }
+zone_id = "788aab50e66d19c314e73dbe3be7adc0"
+
+[env.production]
+route = "https://atestpage.com/*"
+
+[env.development]
+route = "https://dev.atestpage.com/*"
