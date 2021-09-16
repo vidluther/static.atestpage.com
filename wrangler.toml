@@ -1,12 +1,10 @@
-account_id = ""
-name = "my-site"
+account_id = "c9c9c2e25d79cb88d2473d01b910d8f8"
+name = "static"
 type = "webpack"
+zone_id = "788aab50e66d19c314e73dbe3be7adc0"
 workers_dev = false
 site = { bucket = "./public" }
-zone_id = "788aab50e66d19c314e73dbe3be7adc0"
 
-[env.production]
-route = "https://atestpage.com/*"
+route = "https://static.atestpage.com/*"
 
-[env.development]
-route = "https://dev.atestpage.com/*"
+
