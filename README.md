@@ -8,6 +8,10 @@ The demo for [Earthbound Misfit](https://github.com/vidluther/earthbound-misift)
  wrangler publish --env ebmisfit
 ```
 
+# Why not use Github Actions? 
+
+Because I'm trying to understand all the command line fu first, if I understand what all the switches do and how things are built, then I can do whole continuous deployment thing. 
+
 # static.atestpage.com
 Experiments with Cloudflare worker sites
 
