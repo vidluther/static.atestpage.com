@@ -1,3 +1,13 @@
+# Earthbound Misfit Demo 
+
+The demo for [Earthbound Misfit](https://github.com/vidluther/earthbound-misift) resides at https://atestpage.com. This is done by telling hugo to publish the demo site into the ./ebmisfit-public/ folder , and then publishing that folder by issuing the following command.
+
+```
+ hugo -d ~/work/atestpage.com/ebmisfit-public --minify
+ cd ~/work/atestpage.com
+ wrangler publish --env ebmisfit
+```
+
 # static.atestpage.com
 Experiments with Cloudflare worker sites
 
@@ -10,15 +20,4 @@ wrangler generate my-app https://github.com/cloudflare/worker-sites-template
 ```
 
 Since this is a site that's been created from scratch, I just used the Bootstrap [Starter Template](https://getbootstrap.com/docs/5.1/examples/starter-template/) and built this page. 
-
-# wrangler.toml 
-I modified the wrangler.toml file doing the following.. 
-
-1. added a ```route = "https://static.atestpage.com/" ```
-1. Set my account_id and zone_id 
-1. changed workers_dev to false, this prevents it from building my-app.atestpage.workers.dev
-
-
-## Changes to wrangler.toml 
-
 
