@@ -1,17 +1,17 @@
+compatibility_date = "2021-12-30"
 account_id = "c9c9c2e25d79cb88d2473d01b910d8f8"
-name = "atestpage"
+name = "static-dot-atestpage-com"
 type = "webpack"
 zone_id = "788aab50e66d19c314e73dbe3be7adc0"
 workers_dev = false
 
 
 
-[env.starter-template]
 route = "https://static.atestpage.com/*"
 site = { bucket = "./public" }
 
 
 
-[env.ebmisfit]
-route = 'https://atestpage.com/*'
-site = { bucket = "./ebmisfit-public" }
+# [env.ebmisfit]
+# route = 'https://atestpage.com/*'
+# site = { bucket = "./ebmisfit-public" }
